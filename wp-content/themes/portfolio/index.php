@@ -72,7 +72,7 @@
       <div class="topConcept__content">
         <div class="topConcept__head">
           <h2>CONCEPT</h2>
-          <p>当店のこだわり</p>
+          <p>当店のこだわりだよ</p>
         </div>
         <div class="topConcept__head-sub">
           <p>最高のコーヒーと、<br>時の流れを味わうことができる<br>手作りカフェ</p>
