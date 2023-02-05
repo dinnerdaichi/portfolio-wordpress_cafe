@@ -6,12 +6,12 @@
       <h1><img src="<?php echo get_template_directory_uri() ?>/img/logo_dark.svg" alt=""></h1>
       <ul>
         <li>
-          <a href="">
-            <p>top<br><span>トップ</span></p>
+          <a href="#">
+            <p>top<br><span>トップテスト</span></p>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="http://localhost:8888/portfolio-wordpress_cafe/concept/">
             <p>CONCEPT<br><span>コンセプト</span></p>
           </a>
         </li>
@@ -83,7 +83,7 @@
             ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。<br><br>
             ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</p>
         </div>
-        <a href="http://localhost:8888/portfolio/concept/" class="section__link">詳しくはこちら</a>
+        <a href="http://localhost:8888/portfolio-wordpress_cafe/concept/" class="section__link">詳しくはこちら</a>
       </div>
     </div>
   </div>
@@ -283,7 +283,7 @@
                     <?php if (has_post_thumbnail()) {
                       the_post_thumbnail('thumbnail');
                     } else {
-                      echo '<img src="' . esc_url(get_template_directory_uri()) . '/img/noimg.png" alt="">';
+                      echo '<img src="' . esc_url(get_template_directory_uri()) . '/img/noimg.jpg" alt="">';
                     }
                     ?>
 
@@ -303,7 +303,7 @@
                   <?php if (has_post_thumbnail()) {
                     the_post_thumbnail('thumbnail');
                   } else {
-                    echo '<img src="' . esc_url(get_template_directory_uri()) . '/img/noimg.png" alt="">';
+                    echo '<img src="' . esc_url(get_template_directory_uri()) . '/img/noimg.jpg" alt="">';
                   } ?>
                 </div>
                 <div class="news__content-title"><?php the_title(); ?></div>

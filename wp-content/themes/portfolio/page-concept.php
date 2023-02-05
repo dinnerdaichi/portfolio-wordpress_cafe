@@ -5,8 +5,8 @@
 <div class="first-view">
 
   <div class="first-view__title">
-    <h1>NEWS</h1>
-    <span>ニュース</span>
+    <h1><?php the_title();?></h1>
+    <span><?php the_content(); ?></span>
   </div>
 
 </div>

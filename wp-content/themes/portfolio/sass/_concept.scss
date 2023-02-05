@@ -1,20 +1,21 @@
 .concept {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: 150px auto;
   padding: 0 0 100px;
 
 
 
   &__content {
   position: relative;
-    margin-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
 
 
 
-
+&:not(:first-child){
+  margin-top: 250px;
+}
 
     &:nth-child(2) {
       flex-direction: row-reverse;
@@ -58,11 +59,35 @@
 
 .concept__content::after {
  position: absolute;
- content: "";
- background-color: #d84316;
- height: 200px;
- width: 800px;
- top: 50%;
- left: 50%;
+    content: "";
+    background-color: #d5baa04a;
+    height: 200px;
+    width: 800px;
+    bottom: -117px;
+    z-index: -1;
+    right: -50px;
 }
+
+.concept__content:nth-child(2)::after {
+    position: absolute;
+    content: "";
+    background-color: #d5baa04a;
+    height: 400px;
+    width: 600px;
+    bottom: -117px;
+    z-index: -1;
+    left: -50px;
+}
+
+.concept__content:nth-child(3)::after {
+       position: absolute;
+    content: "";
+    background-color: rgba(213, 186, 160, 0.2901960784);
+    height: 460px;
+    width: 400px;
+    top: 15%;
+    z-index: -1;
+    right: -50px;
+}
+
 
