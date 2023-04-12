@@ -1,0 +1,55 @@
+.l-menu {
+  max-width: 1180px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+.p-tab-list {
+  display: flex;
+  justify-content: center;
+  
+  &__item {
+    font-size: 24px;
+    border: 1px solid rgb(142, 142, 142);
+    width: 200px;
+    text-align: center;
+    margin-right: 10px;
+
+    a {
+      padding: 50px;
+      display: block;
+    }
+  }
+}
+
+.p-menu-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &__item{
+    width: 25%;
+  }
+}
+
+.p-item-card{
+
+&__img{
+
+  img{
+    width: 100%;
+    height: auto;
+
+  }
+}
+
+  &__title{
+    font-size: 24px;
+  }
+
+  &__price{
+    font-size: 18px;
+  }
+}

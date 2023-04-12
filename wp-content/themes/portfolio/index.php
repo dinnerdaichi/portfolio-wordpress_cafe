@@ -17,7 +17,7 @@
         </li>
         <li>
           <a href="">
-            <p>MENU<br><span>お知らせ</span></p>
+            <p>grand__menu<br><span>お知らせ</span></p>
           </a>
         </li>
         <li>
@@ -148,104 +148,104 @@
   </div>
 </section>
 
-<section class="menu">
+<section class="grand__menu">
   <div class="section__inner">
-    <div class="menu__content">
-      <h2>GRAND MENU</h2>
-      <div class="menu__content-box">
+    <div class="grand__menu__content">
+      <h2>GRAND grand__menu</h2>
+      <div class="grand__menu__content-box">
 
         <h3>パスタ</h3>
-        <ul class="menu__item">
+        <ul class="grand__menu__item">
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
         </ul>
       </div>
 
-      <div class="menu__content-box">
+      <div class="grand__menu__content-box">
         <h3>サラダ</h3>
-        <ul class="menu__item">
+        <ul class="grand__menu__item">
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
         </ul>
       </div>
-      <div class="menu__content-box">
+      <div class="grand__menu__content-box">
         <h3>パン＆スイーツ</h3>
-        <ul class="menu__item">
+        <ul class="grand__menu__item">
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
         </ul>
       </div>
-      <div class="menu__content-box">
+      <div class="grand__menu__content-box">
         <h3>ドリンク</h3>
-        <ul class="menu__item">
+        <ul class="grand__menu__item">
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
           <li>
-            <div class="menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
-            <div class="menu__title">1テキストテキストテキストの○○○○風パスタ</div>
-            <div class="menu__cost">780yen</div>
+            <div class="grand__menu__img"><img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt=""></div>
+            <div class="grand__menu__title">1テキストテキストテキストの○○○○風パスタ</div>
+            <div class="grand__menu__cost">780yen</div>
           </li>
         </ul>
       </div>
