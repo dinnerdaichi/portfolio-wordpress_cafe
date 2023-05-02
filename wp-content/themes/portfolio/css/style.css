@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap");
 html {
   font-size: 10px;
 }
@@ -29,7 +31,7 @@ a:hover {
 }
 
 section {
-  padding: 150px 0;
+  margin-top: 150px;
 }
 section h2 {
   font-size: 5.2rem;
@@ -120,10 +122,11 @@ li {
   padding: 24px 0;
   text-align: center;
   font-size: 1.6rem;
+  border-radius: 10px;
 }
 
 .mv {
-  padding: 0 0 50px;
+  margin-top: 0;
 }
 .mv__content {
   display: -webkit-box;
@@ -134,25 +137,27 @@ li {
           justify-content: space-between;
   width: 100%;
 }
-.mv__list {
-  width: 15%;
+.mv__content__main-menu {
+  width: 25%;
   text-align: center;
-  padding: 20px;
+  padding: 0 20px;
+  margin-top: 20px;
 }
-.mv__list img {
-  width: 80%;
-  margin: 0 auto;
+.mv__list {
+  margin-top: 50px;
 }
-.mv__list ul li {
-  list-style: none;
-  margin-top: 30px;
+.mv__list__item {
+  margin-top: 50px;
 }
-.mv__list ul li p {
-  font-size: 1.6rem;
+.mv__list__link-en {
+  font-size: 16px;
+  display: block;
   font-weight: bold;
 }
-.mv__img {
-  width: 85%;
+.mv__list__link-ja {
+  font-size: 10px;
+  display: block;
+  margin-top: 5px;
 }
 
 .topConcept__content-box {
@@ -166,12 +171,19 @@ li {
 .topConcept__img {
   width: 50%;
 }
+.topConcept__img img {
+  border-radius: 100px;
+}
 .topConcept__content {
   width: 50%;
   padding: 50px;
 }
 .topConcept__head h2 {
   font-size: 5.2rem;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  font-family: "anton", cursive;
+  letter-spacing: 1rem;
 }
 .topConcept__head p {
   font-size: 1.4rem;
@@ -180,6 +192,7 @@ li {
   font-size: 2.8rem;
   margin-top: 50px;
   line-height: 2.2;
+  font-family: "Noto Serif JP", cursive;
 }
 .topConcept__text {
   font-size: 1.4rem;
@@ -191,15 +204,21 @@ li {
 .lunch {
   text-align: center;
   background-color: #eadfd5;
-  padding: 70px 0 80px;
+  padding: 150px 0;
 }
 .lunch h2 {
   text-align: center;
 }
-.lunch__content {
+.lunch__content h2 {
+  font-family: "anton", cursive;
+}
+.lunch__content__box {
   background-color: #fff;
   padding: 40px;
   margin-top: 50px;
+}
+.lunch__content__img img {
+  border-radius: 30px;
 }
 .lunch__content ul {
   display: -webkit-box;
@@ -244,6 +263,7 @@ li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-radius: 30px;
 }
 .lunch__set-content ul {
   width: 100%;
@@ -267,6 +287,7 @@ li {
 
 .grand__menu h2 {
   text-align: center;
+  font-family: "anton", cursive;
 }
 .grand__menu h3 {
   font-size: 2.4rem;
@@ -301,6 +322,10 @@ li {
 }
 .grand__menu__img {
   border: 10px solid #fff;
+  border-radius: 30px;
+}
+.grand__menu__img img {
+  border-radius: 30px;
 }
 .grand__menu__title {
   font-size: 2rem;
@@ -314,6 +339,7 @@ li {
 
 .gallery {
   background-color: #eadfd5;
+  padding: 150px 0;
 }
 
 .news__content {
@@ -330,6 +356,7 @@ li {
 }
 .news__content-img img {
   height: 100%;
+  border-radius: 30px;
 }
 .news__content-first {
   width: 45%;
@@ -344,14 +371,14 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 .news__content-other li {
-  width: 50%;
+  width: 40%;
 }
 .news__content-other li:nth-child(n+3) {
   margin-top: 40px;
@@ -401,6 +428,9 @@ footer small {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 24px;
+}
+.first-view__title h1 {
+  font-family: "anton", cursive;
 }
 
 .single {

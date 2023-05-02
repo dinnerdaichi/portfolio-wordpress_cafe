@@ -2,47 +2,49 @@
 
 <section class="mv">
   <div class="mv__content">
-    <div class="mv__list">
+    <div class="mv__content__main-menu">
       <h1><img src="<?php echo get_template_directory_uri() ?>/img/logo_dark.svg" alt=""></h1>
-      <ul>
-        <li>
-          <a href="#">
-            <p>top<br><span>トップテスト</span></p>
+      <ul class="mv__list">
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">TOP</span>
+            <span class="mv__list__link-ja">トップ</span>
           </a>
         </li>
-        <li>
-          <a href="http://localhost:8888/portfolio-wordpress_cafe/concept/">
-            <p>CONCEPT<br><span>コンセプト</span></p>
+        <li class="mv__list__item">
+          <a href="http://localhost:8888/portfolio-wordpress_cafe/concept/" class="mv__list__link">
+            <span class="mv__list__link-en">CONCEPT</span>
+            <span class="mv__list__link-ja">コンセプト</span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>grand__menu<br><span>お知らせ</span></p>
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">MENU</span>
+            <span class="mv__list__link-ja">メニュー</span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>NEWS<br><span>ニュース</span></p>
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">NEWS</span>
+            <span class="mv__list__link-ja">ニュース</span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>SHOP<br><span>店舗情報</span></p>
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">SHOP</span>
+            <span class="mv__list__link-ja">ショップ</span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>GIFT<br><span>ギフト・贈り物</span></p>
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">GIFT</span>
+            <span class="mv__list__link-ja">ギフト</span>
           </a>
         </li>
-        <li>
-          <a href="">
-            <p>CONTACT<br><span>お問い合わせ</span></p>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <p>top<br><span>トップ</span></p>
+        <li class="mv__list__item">
+          <a href="" class="mv__list__link">
+            <span class="mv__list__link-en">CONTACT</span>
+            <span class="mv__list__link-ja">コンタクト</span>
           </a>
         </li>
       </ul>
@@ -72,7 +74,7 @@
       <div class="topConcept__content">
         <div class="topConcept__head">
           <h2>CONCEPT</h2>
-          <p>当店のこだわりだよ</p>
+          <p>当店のこだわり</p>
         </div>
         <div class="topConcept__head-sub">
           <p>最高のコーヒーと、<br>時の流れを味わうことができる<br>手作りカフェ</p>
@@ -91,58 +93,60 @@
 
 <section class="lunch">
   <div class="section__inner">
-    <h2>SPECIAL LUNCH SET</h2>
-    <p>今月のスペシャルランチセット</p>
     <div class="lunch__content">
-      <ul>
-        <li>
-          <div class="lunch__content__img">
-            <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
-          </div>
-          <div class="lunch__content__text">
-            <p>A</p>
-            <p>【テストA】テキストテキストの○○風パスタ</p>
-          </div>
-        </li>
-        <li>
-          <div class="lunch__content__img">
-            <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
-          </div>
-          <div class="lunch__content__text">
-            <p>A</p>
-            <p>【テストA】テキストテキストの○○風パスタ</p>
-          </div>
-        </li>
-        <li>
-          <div class="lunch__content__img">
-            <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
-          </div>
-          <div class="lunch__content__text">
-            <p>A</p>
-            <p>【テストA】テキストテキストの○○風パスタ</p>
-          </div>
-        </li>
-        <li>
-          <div class="lunch__content__img">
-            <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
-          </div>
-          <div class="lunch__content__text">
-            <p>A</p>
-            <p>【テストA】テキストテキストの○○風パスタ</p>
-          </div>
-        </li>
-      </ul>
-
-      <div class="lunch__set-content">
+      <h2>SPECIAL LUNCH SET</h2>
+      <p>今月のスペシャルランチセット</p>
+      <div class="lunch__content__box">
         <ul>
-          <li><img src="<?php echo get_template_directory_uri() ?>/img/img_lunch-detail.png" alt=""></li>
           <li>
-            <p>スペシャルランチセット<br>【選べる3品】</p>
-            <p>1,280 yen</p>
-            <p>(11:00 AM〜14:00 PMまで)</p>
+            <div class="lunch__content__img">
+              <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
+            </div>
+            <div class="lunch__content__text">
+              <p>A</p>
+              <p>【テストA】テキストテキストの○○風パスタ</p>
+            </div>
+          </li>
+          <li>
+            <div class="lunch__content__img">
+              <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
+            </div>
+            <div class="lunch__content__text">
+              <p>A</p>
+              <p>【テストA】テキストテキストの○○風パスタ</p>
+            </div>
+          </li>
+          <li>
+            <div class="lunch__content__img">
+              <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
+            </div>
+            <div class="lunch__content__text">
+              <p>A</p>
+              <p>【テストA】テキストテキストの○○風パスタ</p>
+            </div>
+          </li>
+          <li>
+            <div class="lunch__content__img">
+              <img src="<?php echo get_template_directory_uri() ?>/img/img_pasta1.jpg" alt="">
+            </div>
+            <div class="lunch__content__text">
+              <p>A</p>
+              <p>【テストA】テキストテキストの○○風パスタ</p>
+            </div>
           </li>
         </ul>
-
+      
+        <div class="lunch__set-content">
+          <ul>
+            <li><img src="<?php echo get_template_directory_uri() ?>/img/img_lunch-detail.png" alt=""></li>
+            <li>
+              <p>スペシャルランチセット<br>【選べる3品】</p>
+              <p>1,280 yen</p>
+              <p>(11:00 AM〜14:00 PMまで)</p>
+            </li>
+          </ul>
+      
+        </div>
       </div>
     </div>
   </div>
@@ -151,7 +155,7 @@
 <section class="grand__menu">
   <div class="section__inner">
     <div class="grand__menu__content">
-      <h2>GRAND grand__menu</h2>
+      <h2>GRAND MENU</h2>
       <div class="grand__menu__content-box">
 
         <h3>パスタ</h3>

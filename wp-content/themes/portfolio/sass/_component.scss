@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+
+
 html {
   font-size: 10px;
 }
@@ -29,7 +34,7 @@ a {
 }
 
 section {
-  padding: 150px 0;
+  margin-top: 150px ;
 
   h2 {
     font-size: 5.2rem;
@@ -114,12 +119,13 @@ li {
   padding: 24px 0;
   text-align: center;
   font-size: 1.6rem;
+  border-radius: 10px;
 
 
 }
 
 .mv {
-  padding: 0 0 50px;
+ margin-top: 0;
 
 
   &__content {
@@ -127,38 +133,42 @@ li {
     justify-content: space-between;
     width: 100%;
 
+    &__main-menu {
+      width: 25%;
+      text-align: center;
+      padding:0 20px;
+      margin-top: 20px;
+  
+  
+    }
   }
 
-  &__list {
-    width: 15%;
-    text-align: center;
-    padding: 20px;
+&__list{
+  margin-top: 50px;
 
-    img {
-      width: 80%;
-      margin: 0 auto;
+    &__item{
+      margin-top: 50px;  
+
+
+    
     }
 
-    ul {
+    &__link{
 
-      li {
-
-        list-style: none;
-        margin-top: 30px;
-
-        p {
-
-          font-size: 1.6rem;
-          font-weight: bold;
-        }
+      &-en{
+        font-size: 16px;
+        display: block;
+        font-weight: bold;
+      }
+      &-ja{
+        font-size: 10px;
+        display: block;
+        margin-top: 5px;
       }
     }
-  }
 
-  &__img {
-    width: 85%;
+}
 
-  }
 }
 
 // topConcept-------------------------
@@ -174,6 +184,11 @@ li {
 
   &__img {
     width: 50%;
+
+    img{
+
+      border-radius: 100px;
+    }
   }
 
   &__content {
@@ -185,6 +200,9 @@ li {
   &__head {
     h2 {
       font-size: 5.2rem;
+      text-align-last: left;
+      font-family: 'anton',cursive;
+      letter-spacing: 1rem;
     }
 
     p {
@@ -196,6 +214,7 @@ li {
     font-size: 2.8rem;
     margin-top: 50px;
     line-height: 2.2;
+    font-family: 'Noto Serif JP',cursive;
   }
 
   &__text {
@@ -213,7 +232,7 @@ li {
 .lunch {
   text-align: center;
   background-color: #eadfd5;
-  padding: 70px 0 80px;
+  padding: 150px 0;
 
   h2 {
     text-align: center;
@@ -223,9 +242,25 @@ li {
 
   &__content {
 
-    background-color: #fff;
-    padding: 40px;
-    margin-top: 50px;
+    h2{
+      font-family: 'anton',cursive;
+    }
+
+    &__box{
+      background-color: #fff;
+      padding: 40px;
+      margin-top: 50px;
+
+    }
+
+
+    &__img{
+      
+      img{
+        border-radius: 30px;
+
+      }
+    }
 
     ul {
       display: flex;
@@ -269,6 +304,7 @@ li {
     padding: 30px 70px;
     display: flex;
     justify-content: space-between;
+    border-radius: 30px;
 
     ul {
       width: 100%;
@@ -308,6 +344,7 @@ li {
 
   h2 {
     text-align: center;
+    font-family: 'anton',cursive;
   }
 
   h3 {
@@ -349,6 +386,11 @@ li {
 
   &__img {
     border: 10px solid #fff;
+    border-radius: 30px;
+
+    img{
+    border-radius: 30px;
+    }
   }
 
   &__title {
@@ -368,6 +410,7 @@ li {
 .gallery {
   background-color: #eadfd5;
 
+  padding: 150px 0;
 }
 
 
@@ -387,6 +430,7 @@ li {
 
       img {
         height: 100%;
+    border-radius: 30px;
 
 
       }
@@ -410,12 +454,12 @@ li {
 
     ul {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       flex-wrap: wrap;
     }
 
     li {
-      width: 50%;
+      width: 40%;
 
       &:nth-child(n + 3) {
         margin-top: 40px;
@@ -471,6 +515,12 @@ footer {
     align-items: center;
     justify-content: center;
     font-size: 24px;
+
+    h1{
+      font-family: 'anton',cursive;
+    }
+
+
   }
 
 }

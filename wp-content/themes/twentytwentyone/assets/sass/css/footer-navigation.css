@@ -31,8 +31,7 @@
 }
 .footer-navigation-wrapper li a:hover {
   text-decoration: underline;
-  -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
+  text-decoration-style: dotted;
   -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
   color: var(--footer--color-link-hover);
